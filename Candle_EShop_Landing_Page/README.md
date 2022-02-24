@@ -2,7 +2,7 @@
 
 ## :four_leaf_clover: Preview
 
-![preview.PNG](preview.PNG)
+![1.PNG](1.PNG)
 
 ## :package: Resources 
 
