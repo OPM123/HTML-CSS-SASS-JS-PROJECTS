@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ehop Website</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Swiper Link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- Header start -->
+    <header class="header">
+
+        <div class="navigation">
+            <div class="logo">
+                <i class="fab fa-500px"></i>
+                <h1>Naturalic</h1>
+            </div>
+    
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Featured</a>
+                <a href="#">Pages</a>
+            </nav>
+    
+            <div class="controls">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="far fa-user-circle" id="login-btn"></i>
+                <i class="far fa-heart" id="favorites-btn"></i>
+                <i class="far fa-map" id="contact-btn"></i>
+                <i class="fas fa-align-justify" id="menu-btn"></i>
+            </div>
+
+            <div class="search-form">
+                <input type="text" placeholder="Search..">
+            </div>
+
+            <div class="form login-form">
+                <form action="">
+                    <h1>Login</h1>
+                    <input type="email" placeholder="enter your email" class="box">
+                    <input type="password" placeholder="enter your password" class="box">
+                    <div class="remember">
+                        <input type="checkbox" name="" id="remember-me">
+                        <label for="remember-me">remember me</label>
+                    </div>
+                    <input type="submit" value="login now" class="btn">
+                    <p>forget password? <a href="#">click here</a></p>
+                    <p>don't have an account? <a href="#">create now</a></p>
+                </form>
+            </div>
+
+            <div class="form favorites-form">
+                <h1>Your have 12 favorites!</h1>
+                <a href="#" class="btn">Go to Favorites Page</a>
+            </div>
+
+            <div class="form contact-form">
+                <form action="">
+                    <h1>Contact us</h1>
+                    <input type="email" placeholder="enter your email" class="box">
+                    <input type="text" placeholder="enter your message" class="box">
+                    <input type="submit" value="Send" class="btn">
+                </form>
+            </div>
+        </div>
+
+        <div class="header-slider mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <h1>Our New Collection</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam qui non veniam dolorem repellendus explicabo recusandae alias. Corrupti, fugit.</p>
+                        <a href="#" class="btn">Shop Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <h1>Check Our Discouts</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam qui non veniam dolorem repellendus explicabo recusandae alias. Corrupti, fugit.</p>
+                        <a href="#" class="btn">Discounts</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <h1>New Products</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam qui non veniam dolorem repellendus explicabo recusandae alias. Corrupti, fugit.</p>
+                        <a href="#" class="btn">New Products</a>
+                    </div>
+                </div>
+              </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Categories start -->
+    <section class="categories">
+        <div class="box">
+            <!-- https://unsplash.com/photos/iSyyY1GfYSw -->
+            <img src="https://images.unsplash.com/photo-1602523961358-f9f03dd557db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+            <div class="content">
+                <h1>Scented</h1>
+                <a href="#" class="btn-outlined">Shop Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <!-- https://unsplash.com/photos/aoanIH-Brq4 -->
+            <img src="https://images.unsplash.com/photo-1588372405219-e40d64efafcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80" alt="">
+            <div class="content">
+                <h1>Big Wick</h1>
+                <a href="#" class="btn-outlined">Shop Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <!-- https://unsplash.com/photos/3y9ymqvRR_s -->
+            <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+            <div class="content">
+                <h1>Original</h1>
+                <a href="#" class="btn-outlined">Shop Now</a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Categories end -->
+
+    <!-- Products start -->
+    <section class="products">
+        <h1 class="heading">Our Best Sellers</h1>
+
+        <div class="tabs">
+            <a href="#" class="tab active">Scented</a>
+            <a href="#" class="tab">Big Wick</a>
+            <a href="#" class="tab">Original</a>
+        </div>
+
+        <div class="products-slider">
+            <div class="box">
+                <!-- https://unsplash.com/photos/X5g1xXulbu0 -->
+                <img src="https://images.unsplash.com/photo-1612179543058-ab74d388e0ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                <h1>Candle No.1</h1>
+                <p class="price">$19.90</p>
+            </div>
+
+            <div class="box">
+                <!-- https://unsplash.com/photos/M7ztbQ0bcKM -->
+                <img src="https://images.unsplash.com/photo-1623826550935-f2c22e79a52e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                <h1>Candle No.2</h1>
+                <p class="price">$19.90</p>
+            </div>
+
+            <div class="box">
+                <!-- https://unsplash.com/photos/lUZiv2LXsGw -->
+               <img src="https://images.unsplash.com/photo-1596433809252-260c2745dfdd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80" alt="">
+                <h1>Candle No.3</h1>
+                <p class="price">$19.90</p>
+            </div>
+
+            <div class="box">
+                <!-- https://unsplash.com/photos/B0G8xzwTVWc -->
+                <img src="https://images.unsplash.com/photo-1602607203475-c5e99918dfc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="">
+                <h1>Candle No.4</h1>
+                <p class="price">$19.90</p>
+            </div>
+        </div>
+
+        <div class="products-slider">
+            <div class="box">
+                <!-- https://unsplash.com/photos/X5g1xXulbu0 -->
+                <img src="https://images.unsplash.com/photo-1612179543058-ab74d388e0ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                <h1>Candle No.1</h1>
+                <p class="price">$19.90</p>
+            </div>
+
+            <div class="box">
+                <!-- https://unsplash.com/photos/M7ztbQ0bcKM -->
+                <img src="https://images.unsplash.com/photo-1623826550935-f2c22e79a52e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                <h1>Candle No.2</h1>
+                <p class="price">$19.90</p>
+            </div>
+
+            <div class="box">
+                <!-- https://unsplash.com/photos/lUZiv2LXsGw -->
+               <img src="https://images.unsplash.com/photo-1596433809252-260c2745dfdd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80" alt="">
+                <h1>Candle No.3</h1>
+                <p class="price">$19.90</p>
+            </div>
+
+            <div class="box">
+                <!-- https://unsplash.com/photos/B0G8xzwTVWc -->
+                <img src="https://images.unsplash.com/photo-1602607203475-c5e99918dfc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="">
+                <h1>Candle No.4</h1>
+                <p class="price">$19.90</p>
+            </div>
+        </div>
+    </section>
+    <!-- Products end -->
+
+    <!-- Ads start -->
+    <section class="ads">
+        <div class="box">
+            <!-- https://unsplash.com/photos/7rGgIDEm6GM -->
+            <img src="https://images.unsplash.com/photo-1605101600616-a8c6db5b98aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80" alt="">
+            <div class="content">
+                <h1>Order over 30$ to get free shipping</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit error tenetur, minus harum quibusdam quis?</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <!-- https://unsplash.com/photos/aN-zGYlxiCI -->
+            <img src="https://images.unsplash.com/photo-1570823635306-250abb06d4b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+            <div class="content">
+                <h1>Recieve next day if ordered before 12:00</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit error tenetur, minus harum quibusdam quis?</p>
+            </div>
+        </div>
+    </section>
+    <!-- Ads end -->
+
+    <!-- Tips start -->
+    <section class="tips">
+        <div class="box">
+            <i class="fas fa-dolly"></i>
+            <h1>Free Shipping</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos hic ad qui natus, error consequuntur.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-exchange-alt"></i>
+            <h1>Return Free</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos hic ad qui natus, error consequuntur.</p>
+        </div>
+
+        <div class="box">
+            <i class="fab fa-intercom"></i>
+            <h1>Customizable</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos hic ad qui natus, error consequuntur.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-tags"></i>
+            <h1>Member Discounts</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos hic ad qui natus, error consequuntur.</p>
+        </div>
+    </section>
+    <!-- Tips end -->
+
+    <!-- Contact us start -->
+    <section class="contact">
+        <!-- https://unsplash.com/photos/7rGgIDEm6GM -->
+        <img src="https://images.unsplash.com/photo-1605101600616-a8c6db5b98aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1325&q=80" alt="">
+
+        <div class="content">
+            <div class="text">
+                <h1>Contact us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem reiciendis, ad omnis nam molestias delectus.</p>
+            </div>
+    
+            <div class="form">
+                <form action="">
+                    <h1>Contact us</h1>
+                    <input type="email" placeholder="enter your email" class="box">
+                    <input type="text" placeholder="enter your message" class="box">
+                    <input type="submit" value="Send" class="btn">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Contact us end -->
+
+    <!-- Footer start -->
+    <footer class="footer">
+        <div class="footer-nav">
+            <div class="col">
+                <div class="logo">
+                    <i class="fab fa-500px"></i>
+                    <h1>Naturalic</h1>
+                </div>
+    
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore quaerat sed eaque ullam reprehenderit distinctio tempore fuga repudiandae eveniet mollitia?</p>
+    
+                <div class="socials">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+    
+            <div class="col">
+                <h1 class="heading">Links</h1>
+                <div class="links">
+                    <a href="#">Home</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Featured</a>
+                    <a href="#">Pages</a>
+                </div>
+            </div>
+    
+            <div class="col">
+                <h1 class="heading">About Us</h1>
+                <div class="links">
+                    <a href="#">Help</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Policies</a>
+                    <a href="#">Reviews</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+    
+            <div class="col">
+                <h1 class="heading">Profile</h1>
+                <div class="links">
+                    <a href="#">Account</a>
+                    <a href="#">Checkout</a>
+                    <a href="#">Support</a>
+                </div>
+            </div>    
+        </div>
+        <p>Copyrights Reserved; Web Guru 2021</p>
+
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- Script -->
+    <script src="js/script.js"></script>
+</body>
+</html>
