@@ -1,6 +1,10 @@
 # Candle Eshop Landing Page
 
-## Resources 
+## :four_leaf_clover: Preview
+
+![preview.PNG](preview.PNG)
+
+## :package: Resources 
 
 - [Font awesome] icons
 - [Unsplash] images
